@@ -1,3 +1,7 @@
+import cv2
+import os
 import tensorflow as tf
-import numpy as np
-import pandas as pd 
+import imghdr
+
+print("hello")
+data_dir = 'E:\University\FYP Stuff\Dataset\mst-e_data'

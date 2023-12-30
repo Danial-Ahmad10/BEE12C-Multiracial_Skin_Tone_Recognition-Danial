@@ -19,6 +19,18 @@ You can download this dataset from this [website](https://skintone.google/the-sc
 ## Model
 We used MobileNetV2 as a pre-trained model and applied an output layer with a Softmax activation function that will classify between our desired 10 classes. In addition to that, we used MTCNN to detect faces first, which is a pre-trained model that we used and it detected faces quite accurately. However, it had an issue with detecting darker skinned faces.
 
+## Results 
+
+![image](https://github.com/Danial-Ahmad10/BEE12C-Multiracial_Skin_Tone_Recognition-Danial/assets/133823702/76f060b5-2f11-4531-a899-9d518fa58275)
+
+![image](https://github.com/Danial-Ahmad10/BEE12C-Multiracial_Skin_Tone_Recognition-Danial/assets/133823702/b23d0460-1c33-4e55-b67f-99a6d51a64e0)
+
+![image](https://github.com/Danial-Ahmad10/BEE12C-Multiracial_Skin_Tone_Recognition-Danial/assets/133823702/fc18ffb2-9e30-4463-ac0d-19eda73c6a20)
+
+
+
+
+
 ## Repository Structure
 - `/data`: Contains the Monk Skin Tone Dataset (MST Dataset).
 - `/code`: Includes scripts and notebooks for data preprocessing, model development, and skin tone detection.
